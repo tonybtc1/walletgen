@@ -20,14 +20,19 @@ WalletGen is a high-speed, open-source crypto wallet generator and balance finde
 - [Build Instructions](#building-the-project)
 - [Donate](#donate)
 
-[![platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20Android-blue)](https://github.com/tony-dev1/wallets-finder/releases/tag/walletgen)
+[![platform](https://img.shields.io/badge/platform-Windows%20%7C%20MacOS%20%7C%20Linux-blue)](../../releases/walletgen)
 ![build](https://img.shields.io/badge/build-passing-brightgreen)
 ![discord](https://img.shields.io/badge/discord-tonydevbtc-blue.svg?logo=discord&label=discord)
 [![x](https://img.shields.io/badge/@tonydevbtc-black.svg?logo=x)](https://x.com/tonydevbtc)
 
 <p align="center">
-    <img width="1000" alt="WalletGen bitcoin recover" title="WalletGen - Bitcoin Recovery" height="460" src="/screenshots/done.webp" />
+    <img width="1000" alt="WalletGen" title="WalletGen" height="460" src="/screenshots/done.webp" />
 </p>
+
+<p align="center">
+    <img width="1000" alt="WalletGen" title="WalletGen" height="460" src="/screenshots/walletgen_macos1.webp" />
+</p>
+
 
 ## How It Works
 
@@ -55,6 +60,10 @@ Unlike Python-based brute force tools, **WalletGen** is written in C++ and optim
 </p>
 
 <p align="center">
+    <img width="1000" height="460" alt="WalletGen bitcoin recovery" title="WalletGen - Bitcoin Recovery Demo" src="/screenshots/walletgen_macos2.webp" />
+</p>
+
+<p align="center">
     <img width="1000" height="460" alt="WalletGen on Linux" title="WalletGen - Linux Recovery" src="/screenshots/log.webp" />
 </p>
 
@@ -79,6 +88,12 @@ cd walletgen
 ```
 
 Or download [Release for Linux](../../releases/walletgen) 
+
+### Download and Use Database (for more speed)
+| Database                                                     | Download link                                |  File Size                             | Number of Addresses  |
+|---------------------------------------------------------|------------------------------------------------|------------------------------------|----------------------------------|
+| BTC Database                                            | &nbsp;&nbsp;&nbsp;&nbsp;[btc_database.txt](https://github.com/tonybtc1/seed-phrase-generator/releases/download/database/btc_database.txt)  | 1.03 GB | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23 428 179
+| EVM Database                                            | &nbsp;&nbsp;&nbsp;&nbsp;[evm_database.txt](https://github.com/tonybtc1/seed-phrase-generator/releases/download/database/evm_database.txt)  | 1.02 GB | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;25 999 700
 
 
 ## How to Search for Lost Bitcoin & Ethereum Wallets with Balance
@@ -244,3 +259,4 @@ This project is licensed under the [MIT License](/LICENSE)
 ## Keywords
 'bitcoin', 'ethereum', 'crypto', 'cryptocurrency', 'crypto seed phrase mining', 'crypto bruteforce', 'bitcoin bruteforce', 'ethereum bruteforce', 'crypto finder', 'lost bitcoin', 'brute force wallet', 'crypto brute foce', 'crypto bruteforce', 'crypto bruteforce wallet', 'crypto bruteforce key', 'crypto wallet', 'crypto wallet recovery', 'crypto wallet seed generator', 'crypto wallet seed phrase', 'crypto wallet tools', 'wallet finder crypto', 'wallet recovery seeds', 'wallet recovery tools', 'seed phrase', 'seed phrase generator', 'bip39 wallet', 'trezor', 'walletgen', 'crypto mining', 'mnemonic generator', 'crypto recovery', 'recovery crypto', 'bitcoin wallet', 'ethereum wallet', 'seed phrase finder', 'seed phrase wallet', 'seed phrase generator with balance', 'seed phrase balance checker', 'seed phrase trust wallet', 'seed phrase generator and checker', 'seed phrase storage', 'seed phrase word list github', 'bitcoin explorer', 'bitcoin core', 'bitcoin mining', 'ethereum mining', 'lost bitcoin wallet list', 'lost bitcoin wallet finder', 'lost bitcoin wallets', 'lost bitcoin password', 'lost bitcoin addresses', 'lost btc', 'lost bitcoins', 'lost ethereum', 'lost eth', 'crypto mining app', 'crypto mining software', 'mnemonic phrase', 'mnemonic', 'mnemonic phrase generator', 'mnemonic phrase checker', 'mnemonic phrase lost', 'mnemonic phrase to private key', 'mnemonic phrase wallet', 'private key finder', 'private key bitcoin', 'private keys' 'database', 'private key metamask', 'private key to seed phrase', 'private key', 'private key ethereum', 'private key wallet', 'crypto address check', 'brute crypto mining', 'brute crypto'.
 -->
+
