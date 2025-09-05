@@ -26,8 +26,9 @@ WalletGen is a high-speed, open-source crypto wallet generator and balance finde
 [![x](https://img.shields.io/badge/@tonydevbtc-black.svg?logo=x)](https://x.com/tonydevbtc)
 
 <p align="center">
-    <img width="1000" alt="WalletGen" title="WalletGen" height="460" src="/screenshots/done.webp" />
+    <img width="1000" alt="WalletGen" title="WalletGen" height="460" src="https://github.com/user-attachments/assets/eadd36d0-1bf2-4b21-a4e5-b6db2b1249ac" />
 </p>
+
 
 <p align="center">
     <img width="1000" alt="WalletGen" title="WalletGen" height="460" src="/screenshots/walletgen_macos1.webp" />
@@ -39,8 +40,6 @@ WalletGen is a high-speed, open-source crypto wallet generator and balance finde
 WalletGen generates wallets using [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), [BIP44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki), and [Bech32](https://en.bitcoin.it/wiki/Bech32) for Bitcoin, and [Keccak256](https://emn178.github.io/online-tools/keccak_256.html) hashing for EVM-based chains like Ethereum.
 
 The software compares generated addresses against known address databases or checks balances in real-time via public blockchain explorers. 
-
-Wallet Gen is built in C++ and is open-source, allowing anyone to access and modify the code. Compared to Python-based wallet generators, Wallet Gen boasts significantly higher wallet generation speeds, with performance primarily relying on your CPU & GPU.
 
 ##  Why WalletGen?
 
@@ -55,13 +54,18 @@ Unlike Python-based brute force tools, **WalletGen** is written in C++ and optim
 
 # Demo
 
+### Windows
 <p align="center">
     <img width="1000" height="460" alt="WalletGen bitcoin recovery" title="WalletGen - Bitcoin Recovery Demo" src="/screenshots/left.webp" />
 </p>
 
+### MacOS
+
 <p align="center">
     <img width="1000" height="460" alt="WalletGen bitcoin recovery" title="WalletGen - Bitcoin Recovery Demo" src="/screenshots/walletgen_macos2.webp" />
 </p>
+
+### Linux
 
 <p align="center">
     <img width="1000" height="460" alt="WalletGen on Linux" title="WalletGen - Linux Recovery" src="/screenshots/log.webp" />
@@ -76,7 +80,7 @@ Unlike Python-based brute force tools, **WalletGen** is written in C++ and optim
 
 
 ## MacOS
- [Download](../../releases/walletgen)
+- Download [Release](../../releases/walletgen) 
 
 ## Linux (x86-64bit)
 
@@ -259,6 +263,7 @@ This project is licensed under the [MIT License](/LICENSE)
 ## Keywords
 'bitcoin', 'ethereum', 'crypto', 'cryptocurrency', 'crypto seed phrase mining', 'crypto bruteforce', 'bitcoin bruteforce', 'ethereum bruteforce', 'crypto finder', 'lost bitcoin', 'brute force wallet', 'crypto brute foce', 'crypto bruteforce', 'crypto bruteforce wallet', 'crypto bruteforce key', 'crypto wallet', 'crypto wallet recovery', 'crypto wallet seed generator', 'crypto wallet seed phrase', 'crypto wallet tools', 'wallet finder crypto', 'wallet recovery seeds', 'wallet recovery tools', 'seed phrase', 'seed phrase generator', 'bip39 wallet', 'trezor', 'walletgen', 'crypto mining', 'mnemonic generator', 'crypto recovery', 'recovery crypto', 'bitcoin wallet', 'ethereum wallet', 'seed phrase finder', 'seed phrase wallet', 'seed phrase generator with balance', 'seed phrase balance checker', 'seed phrase trust wallet', 'seed phrase generator and checker', 'seed phrase storage', 'seed phrase word list github', 'bitcoin explorer', 'bitcoin core', 'bitcoin mining', 'ethereum mining', 'lost bitcoin wallet list', 'lost bitcoin wallet finder', 'lost bitcoin wallets', 'lost bitcoin password', 'lost bitcoin addresses', 'lost btc', 'lost bitcoins', 'lost ethereum', 'lost eth', 'crypto mining app', 'crypto mining software', 'mnemonic phrase', 'mnemonic', 'mnemonic phrase generator', 'mnemonic phrase checker', 'mnemonic phrase lost', 'mnemonic phrase to private key', 'mnemonic phrase wallet', 'private key finder', 'private key bitcoin', 'private keys' 'database', 'private key metamask', 'private key to seed phrase', 'private key', 'private key ethereum', 'private key wallet', 'crypto address check', 'brute crypto mining', 'brute crypto'.
 -->
+
 
 
 
