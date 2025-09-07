@@ -174,7 +174,7 @@ After a week of non-stop wallet searching, I finally found a [wallet](https://me
 
 ## New Find 5/5/2025
 
-[bc1qpm0k3kcmthwsa4zseh33g3hl7eju8u8nkt83kp](https://mempool.space/address/bc1qpm0k3kcmthwsa4zseh33g3hl7eju8u8nkt83kp)
+[bc1qpm0k3kcmthwsa4zseh33g3hl7eju8u8nkt83kp](https://mempool.space/address/bc1qpm0k3kcmthwsa4zseh33g3hl7eju8u8nkt83kp) - 0.4522 BTC
 
 ![image](/screenshots/look.webp)
 
@@ -186,16 +186,27 @@ After a week of non-stop wallet searching, I finally found a [wallet](https://me
 
 ## New Find 8/23/2025
 
-[bc1q05cmxffxaj324epjv5ly0ecncte9an9t33napy](https://mempool.space/address/bc1q05cmxffxaj324epjv5ly0ecncte9an9t33napy)
+[bc1q05cmxffxaj324epjv5ly0ecncte9an9t33napy](https://mempool.space/address/bc1q05cmxffxaj324epjv5ly0ecncte9an9t33napy) - 0.208 BTC
 <p align="center">
 <img width="1000" height="460" alt="0.2btc" src="https://github.com/user-attachments/assets/e34fcb20-3d65-43ee-bd0d-1c6d107a0540" />
 </p>
 
 ## New Find 9/5/2025
 
-[bc1qcwvsavc3tqquxk7fd9xlngcp2vggdvcrnz0yw0](https://mempool.space/address/bc1qcwvsavc3tqquxk7fd9xlngcp2vggdvcrnz0yw0)
+[bc1qcwvsavc3tqquxk7fd9xlngcp2vggdvcrnz0yw0](https://mempool.space/address/bc1qcwvsavc3tqquxk7fd9xlngcp2vggdvcrnz0yw0) - 0.7362 BTC
 <p align="center">
 <img width="1000" height="460" alt="0.7btc" src="https://github.com/user-attachments/assets/986fa246-5b43-44b0-a3db-f3d0519fc999" />
+</p>
+
+## New Find 9/5/2025
+
+[bc1qf7ywmr5sfkzfg8zqjl6m9mf68fs9r0c7n08zmt](https://mempool.space/address/bc1qf7ywmr5sfkzfg8zqjl6m9mf68fs9r0c7n08zmt) - 0.0069 BTC \
+[bc1q9sd4psdmlj707v0j9np22dhrjxy5c4g92qlk6y](https://mempool.space/address/bc1q9sd4psdmlj707v0j9np22dhrjxy5c4g92qlk6y) - 0.0060 BTC \
+[bc1qzesq56xsrtr76czy7tx9v3clsmkgm2752qsrhs](https://mempool.space/address/bc1qzesq56xsrtr76czy7tx9v3clsmkgm2752qsrhs) - 0.0061 BTC \
+[bc1qd06fpfckmqv3ne0mhsnj5e4pgqs4lfvsn2vgj9](https://mempool.space/address/bc1qd06fpfckmqv3ne0mhsnj5e4pgqs4lfvsn2vgj9) - 0.0022 BTC
+
+<p align="center">
+<img width="1000" height="460" alt="0.02btc" src="https://github.com/user-attachments/assets/09501738-8248-47ee-bf68-8453ded7eb1d" />
 </p>
 
 
@@ -263,6 +274,7 @@ This project is licensed under the [MIT License](/LICENSE)
 ## Keywords
 'bitcoin', 'ethereum', 'crypto', 'cryptocurrency', 'crypto seed phrase mining', 'crypto bruteforce', 'bitcoin bruteforce', 'ethereum bruteforce', 'crypto finder', 'lost bitcoin', 'brute force wallet', 'crypto brute foce', 'crypto bruteforce', 'crypto bruteforce wallet', 'crypto bruteforce key', 'crypto wallet', 'crypto wallet recovery', 'crypto wallet seed generator', 'crypto wallet seed phrase', 'crypto wallet tools', 'wallet finder crypto', 'wallet recovery seeds', 'wallet recovery tools', 'seed phrase', 'seed phrase generator', 'bip39 wallet', 'trezor', 'walletgen', 'crypto mining', 'mnemonic generator', 'crypto recovery', 'recovery crypto', 'bitcoin wallet', 'ethereum wallet', 'seed phrase finder', 'seed phrase wallet', 'seed phrase generator with balance', 'seed phrase balance checker', 'seed phrase trust wallet', 'seed phrase generator and checker', 'seed phrase storage', 'seed phrase word list github', 'bitcoin explorer', 'bitcoin core', 'bitcoin mining', 'ethereum mining', 'lost bitcoin wallet list', 'lost bitcoin wallet finder', 'lost bitcoin wallets', 'lost bitcoin password', 'lost bitcoin addresses', 'lost btc', 'lost bitcoins', 'lost ethereum', 'lost eth', 'crypto mining app', 'crypto mining software', 'mnemonic phrase', 'mnemonic', 'mnemonic phrase generator', 'mnemonic phrase checker', 'mnemonic phrase lost', 'mnemonic phrase to private key', 'mnemonic phrase wallet', 'private key finder', 'private key bitcoin', 'private keys' 'database', 'private key metamask', 'private key to seed phrase', 'private key', 'private key ethereum', 'private key wallet', 'crypto address check', 'brute crypto mining', 'brute crypto'.
 -->
+
 
 
 
