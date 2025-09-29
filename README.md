@@ -8,11 +8,11 @@ WalletGen is a high-speed, open-source crypto wallet generator and balance finde
 -->
 
 ## Quick Navigation
+- [Download WalletGen](#how-to-start)
+- [Database Download](#download-and-use-database-for-more-speed)
 - [How It Works](#how-it-works)
 - [Why WalletGen](#why-walletgen)
 - [Features](#features)
-- [Download WalletGen](#how-to-start)
-- [Database Download](#download-and-use-database-for-more-speed)
 - [The Program Found a Wallet - What Next?](#the-program-found-a-wallet--whats-next)
 - [Recovery Your Bitcoin Wallet](#recovery-your-bitcoin-wallet)
 - [My Finds](#my-finds)
@@ -43,7 +43,30 @@ The software compares generated addresses against known address databases or che
 
 ##  Why WalletGen?
 
-Unlike Python-based brute force tools, **WalletGen** is written in C++ and optimized for multi-threaded CPU and GPU usage, delivering up to **10x faster** performance. Whether you’re exploring lost wallets, verifying private key space, or recovering your own wallet, WalletGen gives you the power to do it efficiently and securely.
+1. Unlike Python-based brute force tools, **WalletGen** is written in C++ and optimized for multi-threaded CPU and GPU usage, delivering up to **10x faster** performance.
+2. True randomness doesn’t exist in computing — **only pseudo-randomness**.
+Every crypto wallet uses deterministic algorithms to generate seed phrases.
+That means patterns — and potential weaknesses — can exist.
+3. Wallets like **Bitcoin Core**, **Electrum**, **Metamask**, **Trust Wallet**, etc., use specific implementations of BIP39/BIP44 and others. **WalletGen GPU** replicates these exact algorithms — from both old and new versions — capturing real-world entropy models.
+4. It uses **GPU** acceleration to generate and scan massive numbers of seed phrases and derive multiple address paths per seed.
+
+⚠️ Other public tools?
+They rely on standard bip39 libraries and scan only basic derivation paths.
+These generic methods don’t match how real wallets generate keys. Result: **zero** hits.
+
+✅ WalletGen GPU focuses on realistic derivation schemes, outdated algorithms, and edge-case entropy flaws — things most tools ignore.
+
+📈 You can run it 24/7. It works passively while your PC (or rig) scans the blockchain for forgotten funds.
+
+
+## Features
+
+- **Generation of cryptocurrency wallets**: Wallet Gen supports creating single wallets for Bitcoin, Ethereum, BNB, MATIC and other cryptocurrencies.
+- **Search for wallets with balance**: Using bruteforce techniques, Wallet Gen allows you to search for existing wallets with balances in both the Bitcoin network and EVMs.
+- **Support for various algorithms**: Keccak256 algorithm for EVM wallets and BIP39, BIP44, Bech32 algorithm for Bitcoin are used for wallet generation.
+- **Using a database to speed up searches**: Download and use databases to search for balance wallets, speeding up the process tenfold.
+- **High speed of operation**: Wallet Gen utilizes the power of the CPU and GPU to achieve the best performance.
+- **Recovery your Bitcoin wallet**: WalletGen allows you to recover your bitcoin wallet by seed phrase (mnemonic phrase).
 
 ## Supported Blockchains
 
