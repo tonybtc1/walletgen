@@ -1,4 +1,4 @@
-# Seed Phrase Generator (WalletGen) – Crypto Wallet Generator & Balance Finder for Lost Bitcoin (BTC), Ethereum (ETH), BNB, Polygon (MATIC) and EVM Chains & Bitcoin Wallet Recover
+# Seed Phrase Generator (WalletGen) – Crypto Wallet Generator & Balance Finder for Lost Bitcoin (BTC), Ethereum (ETH), BNB, Polygon (MATIC) and EVM Chains, Brain Wallet Generator, & Bitcoin Wallet Recover
 
 **WalletGen** is an open-source, ultra-fast **crypto wallet generator** and **seed phrase brute force tool**. It helps you find and recovery lost or inactive **Bitcoin (BTC)**, **Ethereum (ETH)**, **BNB**, **Polygon (MATIC)**, and other **EVM-compatible wallets** with real-time balance checking and high-performance C++ engine.
 
@@ -67,6 +67,7 @@ These generic methods don’t match how real wallets generate keys. Result: **ze
 - **Using a database to speed up searches**: Download and use databases to search for balance wallets, speeding up the process tenfold.
 - **High speed of operation**: Wallet Gen utilizes the power of the CPU and GPU to achieve the best performance.
 - **Recovery your Bitcoin wallet**: WalletGen allows you to recover your bitcoin wallet by seed phrase (mnemonic phrase).
+- **Generate and check a brain wallet**.
 
 ## Supported Blockchains
 
@@ -178,6 +179,11 @@ If you have a full 12-word seed, simply enter it in full with a space. WalletGen
 * Use only the * symbol to search for missing words.
 * Searching for missing words may take considerable time, especially if several words are missing.
 * If the wallet with balance is successfully recovered, the program will automatically stop and save the found data.
+
+## Brain Wallet Generator / Checker
+
+<img width="1000" height="789" alt="brainwallet" src="https://github.com/user-attachments/assets/6d5f048c-fc52-4838-b117-f9cab01491e1" />
+
 
 ## My Finds
 
@@ -317,16 +323,6 @@ This project is licensed under the [MIT License](/LICENSE)
 ## Keywords
 'bitcoin', 'ethereum', 'crypto', 'cryptocurrency', 'crypto seed phrase mining', 'crypto bruteforce', 'bitcoin bruteforce', 'ethereum bruteforce', 'crypto finder', 'lost bitcoin', 'brute force wallet', 'crypto brute foce', 'crypto bruteforce', 'crypto bruteforce wallet', 'crypto bruteforce key', 'crypto wallet', 'crypto wallet recovery', 'crypto wallet seed generator', 'crypto wallet seed phrase', 'crypto wallet tools', 'wallet finder crypto', 'wallet recovery seeds', 'wallet recovery tools', 'seed phrase', 'seed phrase generator', 'bip39 wallet', 'trezor', 'walletgen', 'crypto mining', 'mnemonic generator', 'crypto recovery', 'recovery crypto', 'bitcoin wallet', 'ethereum wallet', 'seed phrase finder', 'seed phrase wallet', 'seed phrase generator with balance', 'seed phrase balance checker', 'seed phrase trust wallet', 'seed phrase generator and checker', 'seed phrase storage', 'seed phrase word list github', 'bitcoin explorer', 'bitcoin core', 'bitcoin mining', 'ethereum mining', 'lost bitcoin wallet list', 'lost bitcoin wallet finder', 'lost bitcoin wallets', 'lost bitcoin password', 'lost bitcoin addresses', 'lost btc', 'lost bitcoins', 'lost ethereum', 'lost eth', 'crypto mining app', 'crypto mining software', 'mnemonic phrase', 'mnemonic', 'mnemonic phrase generator', 'mnemonic phrase checker', 'mnemonic phrase lost', 'mnemonic phrase to private key', 'mnemonic phrase wallet', 'private key finder', 'private key bitcoin', 'private keys' 'database', 'private key metamask', 'private key to seed phrase', 'private key', 'private key ethereum', 'private key wallet', 'crypto address check', 'brute crypto mining', 'brute crypto'.
 -->
-
-
-
-
-
-
-
-
-
-
 
 
 
